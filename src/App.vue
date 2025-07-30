@@ -17,9 +17,10 @@
   </div>
 </template>
 
-ript setup lang="ts">
-
-
+<script setup lang="ts">
+import { ref, reactive } from 'vue'
+import Sidebar from './components/Sidebar.vue'
+import Header from './components/Header.vue'
 import Dashboard from './components/Dashboard.vue'
 import Orders from './components/Orders.vue'
 import OrderForm from './components/OrderForm.vue'
