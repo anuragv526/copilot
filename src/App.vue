@@ -17,8 +17,8 @@
   </div>
 </template>
 
-ript setup lang="ts">
-
+<script setup lang="ts">
+import { ref, reactive } from 'vue'
 
 import Dashboard from './components/Dashboard.vue'
 import Orders from './components/Orders.vue'
