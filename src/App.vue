@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <Sidebar :currentView="currentView" @navigate="handleNavigation" /
+    <Sidebar :currentView="currentView" @navigate="handleNavigation" 
     <main class="main-content">
       <Header :currentView="currentView" />
       <div class="content-area">
